@@ -2988,13 +2988,16 @@ input, select, textarea {
 .fa-microsoft {
 font-size: 48px;
 }
+
 .icon-cplusplus{
-	display: block;
-	font-size: 2rem;
-	line-height: 1.1;
-	color: inherit !important;
-	font-weight: 300;
-	letter-spacing: -0.025em;
+display: block;
+font-size: 2rem;
+line-height: 1.1;
+color: inherit !important;
+font-weight: 300;
+letter-spacing: -0.025em;
+border-top-left-radius: 8px;
+border-bottom-left-radius: 8px;
 }
 
 /* Spotlight */
