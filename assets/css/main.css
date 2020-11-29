@@ -2989,8 +2989,12 @@ input, select, textarea {
 font-size: 48px;
 }
 .icon-cplusplus{
-	font-size: 48px;
-			margin: 0 0 3em 0;
+	display: block;
+	font-size: 2rem;
+	line-height: 1.1;
+	color: inherit !important;
+	font-weight: 300;
+	letter-spacing: -0.025em;
 }
 
 /* Spotlight */
