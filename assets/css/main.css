@@ -2896,7 +2896,7 @@ input, select, textarea {
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				background-color: #0D1347;
 			}
 
 			.statistics li.style5 {
@@ -2905,7 +2905,7 @@ input, select, textarea {
 
 			.statistics li strong, .statistics li b {
 				display: block;
-				font-size: 2rem;
+				font-size: 3rem;
 				line-height: 1.1;
 				color: inherit !important;
 				font-weight: 300;
