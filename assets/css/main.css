@@ -2414,6 +2414,14 @@ input, select, textarea {
 				width: 100%;
 			}
 
+/* Resume Button class*/
+
+.waves-effect waves-light btn-large{
+	transform: translate(50%,50%);
+}
+
+
+
 /* List */
 
 	ol {
@@ -2983,6 +2991,9 @@ input, select, textarea {
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
 
+
+
+
 /* Fab fa
 /* Rules for sizing the icon. */
 .fa-microsoft {
@@ -2993,9 +3004,9 @@ font-size: 48px;
 	font-size: 48px;
 }
 
-.fa-unity{
-	font-size: 48px;
-}
+
+
+
 
 /* Spotlight */
 
