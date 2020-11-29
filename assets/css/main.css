@@ -2986,11 +2986,7 @@ input, select, textarea {
 /* Fab fa
 /* Rules for sizing the icon. */
 .fa-microsoft {
-color: red;
 font-size: 48px;
-background: #000;
-padding: 15px;
-border-radius: 30px;
 }
 
 /* Spotlight */
