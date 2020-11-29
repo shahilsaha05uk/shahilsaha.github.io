@@ -3001,10 +3001,10 @@ border-top-left-radius: 8px;
 border-bottom-left-radius: 8px;
 border-top-right-radius: 0;
 border-bottom-left-radius: 8px;
-display: block;
+/* display: block;
 width: 20em;
 max-width: 100%;
-margin: 0 auto 2em auto;
+margin: 0 auto 2em auto; */
 }
 
 /* Spotlight */
