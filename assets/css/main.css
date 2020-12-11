@@ -3582,51 +3582,18 @@ font-size: 48px;
 
 		#main header.major h2:after {
 
-			    background: linear-gradient(263deg, #000000, #a70000);
-			    background-size: 400% 400%;
-
-			    -webkit-animation: Background 11s ease infinite;
-			    -moz-animation: Background 11s ease infinite;
-			    -o-animation: Background 11s ease infinite;
-			    animation: Background 11s ease infinite;
-			}
-
-			@-webkit-keyframes Background {
-			    0%{background-position:93% 0%}
-			    50%{background-position:0% 100%}
-			    100%{background-position:93% 0%}
-			}
-			@-moz-keyframes Background {
-			    0%{background-position:93% 0%}
-			    50%{background-position:0% 100%}
-			    100%{background-position:93% 0%}
-			}
-			@-o-keyframes Background {
-			    0%{background-position:93% 0%}
-			    50%{background-position:0% 100%}
-			    100%{background-position:93% 0%}
-			}
-			@keyframes Background {
-			    0%{background-position:93% 0%}
-			    50%{background-position:0% 100%}
-			    100%{background-position:93% 0%}
-			}
 
 
 
-			/* background-color: #dddddd;
+			background-color: #dddddd;
 			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0); */
-			/* background: rgb(1,1,60);
-			background: -moz-linear-gradient(63deg, rgba(1,1,60,1) 0%, rgba(85,1,1,1) 35%);
-			background: -webkit-linear-gradient(63deg, rgba(1,1,60,1) 0%, rgba(85,1,1,1) 35%);
-			background: linear-gradient(63deg, rgba(1,1,60,1) 0%, rgba(85,1,1,1) 35%);
-			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01013c",endColorstr="#550101",GradientType=1); */
+			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 
 
-		
+}
+
 
 		#main table tbody tr {
 			border-color: #dddddd;
