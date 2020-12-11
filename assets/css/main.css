@@ -3591,38 +3591,9 @@ font-size: 48px;
 			background: -webkit-linear-gradient(63deg, rgba(1,1,60,1) 0%, rgba(85,1,1,1) 35%);
 			background: linear-gradient(63deg, rgba(1,1,60,1) 0%, rgba(85,1,1,1) 35%);
 			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01013c",endColorstr="#550101",GradientType=1); */
-			.css-selector {
-			    background: linear-gradient(263deg, #000000, #a70000);
-			    background-size: 400% 400%;
 
-			    -webkit-animation: Background 11s ease infinite;
-			    -moz-animation: Background 11s ease infinite;
-			    -o-animation: Background 11s ease infinite;
-			    animation: Background 11s ease infinite;
-			}
 
-			@-webkit-keyframes Background {
-			    0%{background-position:93% 0%}
-			    50%{background-position:0% 100%}
-			    100%{background-position:93% 0%}
-			}
-			@-moz-keyframes Background {
-			    0%{background-position:93% 0%}
-			    50%{background-position:0% 100%}
-			    100%{background-position:93% 0%}
-			}
-			@-o-keyframes Background {
-			    0%{background-position:93% 0%}
-			    50%{background-position:0% 100%}
-			    100%{background-position:93% 0%}
-			}
-			@keyframes Background {
-			    0%{background-position:93% 0%}
-			    50%{background-position:0% 100%}
-			    100%{background-position:93% 0%}
-			}
-
-		
+		}
 
 		#main table tbody tr {
 			border-color: #dddddd;
