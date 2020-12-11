@@ -3586,12 +3586,11 @@ font-size: 48px;
 			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0); */
-
-			background: rgb(1,1,70);
-background: -moz-linear-gradient(105deg, rgba(1,1,70,1) 0%, rgba(116,2,2,1) 35%);
-background: -webkit-linear-gradient(105deg, rgba(1,1,70,1) 0%, rgba(116,2,2,1) 35%);
-background: linear-gradient(105deg, rgba(1,1,70,1) 0%, rgba(116,2,2,1) 35%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010146",endColorstr="#740202",GradientType=1);
+			background: rgb(1,1,60);
+			background: -moz-linear-gradient(63deg, rgba(1,1,60,1) 0%, rgba(85,1,1,1) 35%);
+			background: -webkit-linear-gradient(63deg, rgba(1,1,60,1) 0%, rgba(85,1,1,1) 35%);
+			background: linear-gradient(63deg, rgba(1,1,60,1) 0%, rgba(85,1,1,1) 35%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01013c",endColorstr="#550101",GradientType=1);
 		}
 
 		#main table tbody tr {
