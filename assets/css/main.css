@@ -2493,9 +2493,9 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
-				li::before{
+				/* li::before{
 					content: "\f549";
-				}
+				} */
 
 	dl {
 		margin: 0 0 2em 0;
