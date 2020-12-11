@@ -100,34 +100,34 @@ input, select, textarea {
 
 	body {
 
-		    background: linear-gradient(263deg, #000000, #a70000);
+		    background: linear-gradient(297deg, #01011e, #000000);
 		    background-size: 400% 400%;
 
-		    -webkit-animation: Background 11s ease infinite;
-		    -moz-animation: Background 11s ease infinite;
-		    -o-animation: Background 11s ease infinite;
-		    animation: Background 11s ease infinite;
+		    -webkit-animation: AnimationName 30s ease infinite;
+		    -moz-animation: AnimationName 30s ease infinite;
+		    -o-animation: AnimationName 30s ease infinite;
+		    animation: AnimationName 30s ease infinite;
 		}
 
-		@-webkit-keyframes Background {
-		    0%{background-position:93% 0%}
-		    50%{background-position:0% 100%}
-		    100%{background-position:93% 0%}
+		@-webkit-keyframes AnimationName {
+		    0%{background-position:0% 15%}
+		    50%{background-position:100% 86%}
+		    100%{background-position:0% 15%}
 		}
-		@-moz-keyframes Background {
-		    0%{background-position:93% 0%}
-		    50%{background-position:0% 100%}
-		    100%{background-position:93% 0%}
+		@-moz-keyframes AnimationName {
+		    0%{background-position:0% 15%}
+		    50%{background-position:100% 86%}
+		    100%{background-position:0% 15%}
 		}
-		@-o-keyframes Background {
-		    0%{background-position:93% 0%}
-		    50%{background-position:0% 100%}
-		    100%{background-position:93% 0%}
+		@-o-keyframes AnimationName {
+		    0%{background-position:0% 15%}
+		    50%{background-position:100% 86%}
+		    100%{background-position:0% 15%}
 		}
-		@keyframes Background {
-		    0%{background-position:93% 0%}
-		    50%{background-position:0% 100%}
-		    100%{background-position:93% 0%}
+		@keyframes AnimationName {
+		    0%{background-position:0% 15%}
+		    50%{background-position:100% 86%}
+		    100%{background-position:0% 15%}
 		}
 
 
@@ -142,7 +142,7 @@ input, select, textarea {
 
 
 
-	
+
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
