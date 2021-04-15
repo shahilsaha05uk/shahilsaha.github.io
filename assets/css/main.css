@@ -103,7 +103,7 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	body {
+	/* body {
 
 		    background: linear-gradient(297deg, #01011e, #000000);
 		    background-size: 400% 400%;
@@ -133,7 +133,7 @@ input, select, textarea {
 		    0%{background-position:0% 15%}
 		    50%{background-position:100% 86%}
 		    100%{background-position:0% 15%}
-		}
+		} */
 
 
 
