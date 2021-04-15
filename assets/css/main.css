@@ -105,17 +105,6 @@ input, select, textarea {
 
 
 
-	body{
-
-
-
-			background-image: url('https://i.gifer.com/origin/8a/8a4b5e12f3abed35b73c528c02ad5dd0.gif');
-			background-size: cover;
-
-			height: 100vh;
-			padding:0;
-			margin:0;
-	}
 
 
 	body {
@@ -159,6 +148,17 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), linear-gradient(45deg, #000000 15%, #B10000 85%); */
 
 
+		body{
+
+
+
+				background-image: url('https://i.gifer.com/origin/8a/8a4b5e12f3abed35b73c528c02ad5dd0.gif');
+				background-size: cover;
+
+				height: 100vh;
+				padding:0;
+				margin:0;
+		}
 
 
 
