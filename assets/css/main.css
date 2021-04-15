@@ -109,7 +109,7 @@ input, select, textarea {
 
 	body {
 
-		    background: linear-gradient(297deg, #000501, #780501);
+		    background: linear-gradient(297deg, #780501, #000501);
 		    background-size: 400% 400%;
 
 		    -webkit-animation: AnimationName 30s ease infinite;
