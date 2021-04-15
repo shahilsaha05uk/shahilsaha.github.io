@@ -162,45 +162,6 @@
 
 
 
-								<div id="main-container">
-								  <div id="content-slider">
-								    <div class="content-wrapper">
-
-
-															<a href="https://github.com/shahilsaha05uk/Mario.git">	<img src="images/mario.png"></a>
-																<p>Mario</p>
-															<div class="card-action">
-																<a href="https://github.com/shahilsaha05uk/Mario.git">Github Link</a>
-
-
-
-								      </div>
-								    </div>
-								    <div class="content-wrapper">
-
-											<a href="https://github.com/shahilsaha05uk/SolarSystem.git">	<img src="images/Solar.png"></a>
-												<p>Solar System</p>
-											<div class="card-action">
-												<a href="https://github.com/shahilsaha05uk/SolarSystem.git">Github Link</a>
-
-								    </div>
-								    <div class="content-wrapper">
-								      <div id="block-3" class="content-block">
-								      </div>
-								    </div>
-								    <div class="content-wrapper">
-								      <div id="block-4" class="content-block">
-								      </div>
-								    </div>
-								  </div>
-								  <div id="scroll-container">
-								    <a href="#" id="scroll-left"><i class="fa fa-chevron-left"></i></a>
-								    <a href="#" id="scroll-right"><i class="fa fa-chevron-right"></i></a>
-								  </div>
-
-								</div>
-
-
 
 
 
@@ -348,31 +309,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
-
-			window.addEventListener('load', () => {
-			  let posX = 0;
-			  let travel = 100;
-			  let sr = document.getElementById('scroll-right')
-			  let sl = document.getElementById('scroll-left')
-			  let track = document.getElementById('content-slider')
-
-			  // scroll to right
-			  sr.addEventListener('click', (e) => {
-			   e.preventDefault()
-			    posX = posX - travel
-			    let translateX = `translateX(${posX}vw)`
-			   track.style.transform = translateX
-			  })
-			  // scroll to left
-			  sl.addEventListener('click', (e) => {
-			   e.preventDefault()
-			    posX = posX + travel
-			    let translateX = `translateX(${posX}vw)`
-			   track.style.transform = translateX
-			  })
-			})
-
 
 
 	</body>
