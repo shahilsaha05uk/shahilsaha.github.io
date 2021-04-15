@@ -27,6 +27,9 @@ section, summary, time, mark, audio, video {
 
 
 
+
+
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -141,7 +144,16 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), linear-gradient(45deg, #000000 15%, #B10000 85%); */
 
 
+		body{
+				background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+				background-size: cover;
 
+
+
+				height: 100vh;
+				padding:0;
+				margin:0;
+		}
 
 
 
