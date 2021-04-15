@@ -153,7 +153,7 @@ input, select, textarea {
 
 
 				background-image: url('https://i.gifer.com/origin/8a/8a4b5e12f3abed35b73c528c02ad5dd0.gif');
-				background-size: auto;
+				background-size: cover;
 
 				height: 100vh;
 				padding:0;
