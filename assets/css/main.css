@@ -112,8 +112,8 @@ input, select, textarea {
 		    /* background: linear-gradient(297deg, #000000, #690000);
 		    background-size: 400% 400%; */
 				background: #A10102;
-				background: -webkit-linear-gradient(right, #A10102, #010101);
-				background: -moz-linear-gradient(right, #A10102, #010101);
+				/* background: -webkit-linear-gradient(right, #A10102, #010101);
+				background: -moz-linear-gradient(right, #A10102, #010101); */
 				background: linear-gradient(to left, #A10102, #010101);
 
 
