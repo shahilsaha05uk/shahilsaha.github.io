@@ -146,12 +146,12 @@ input, select, textarea {
 
 		body{
 
-			background-image:url('images/try2.gif');
-			background-repeat:repeat;
+			/* background-image:url('images/try2.gif');
+			background-repeat:repeat; */
 
 
-				/* background-image: url('http://i.stack.imgur.com/kx8MT.gif');
-				background-size: cover; */
+				background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+				background-size: cover;
 
 
 				/* height: 100vh;
