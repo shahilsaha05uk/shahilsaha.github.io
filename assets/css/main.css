@@ -146,7 +146,7 @@ input, select, textarea {
 
 		body{
 
-			background-image:url('images/trial.gif'); 
+			background-image:url('images/trial.gif');
 			background-repeat:repeat;
 
 
@@ -154,9 +154,9 @@ input, select, textarea {
 				background-size: cover; */
 
 
-				height: 100vh;
+				/* height: 100vh;
 				padding:0;
-				margin:0;
+				margin:0; */
 		}
 
 
