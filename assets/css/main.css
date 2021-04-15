@@ -103,7 +103,22 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	/* body {
+
+
+	body{
+
+
+
+			background-image: url('https://i.gifer.com/origin/8a/8a4b5e12f3abed35b73c528c02ad5dd0.gif');
+			background-size: cover;
+
+			height: 100vh;
+			padding:0;
+			margin:0;
+	}
+
+
+	body {
 
 		    background: linear-gradient(297deg, #01011e, #000000);
 		    background-size: 400% 400%;
@@ -133,7 +148,7 @@ input, select, textarea {
 		    0%{background-position:0% 15%}
 		    50%{background-position:100% 86%}
 		    100%{background-position:0% 15%}
-		} */
+		}
 
 
 
@@ -144,17 +159,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), linear-gradient(45deg, #000000 15%, #B10000 85%); */
 
 
-		body{
 
-
-
-				background-image: url('https://i.gifer.com/origin/8a/8a4b5e12f3abed35b73c528c02ad5dd0.gif');
-				background-size: cover;
-
-				height: 100vh;
-				padding:0;
-				margin:0;
-		}
 
 
 
