@@ -3334,15 +3334,15 @@ font-size: 48px;
 	}
 
 		#nav input, #nav select, #nav textarea {
-			color: #636363;
+			color: #333333;
 		}
 
 		#nav a:hover {
-			color: #636363;
+			color: #333333;
 		}
 
 		#nav strong, #nav b {
-			color: #636363;
+			color: #333333;
 		}
 
 		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
