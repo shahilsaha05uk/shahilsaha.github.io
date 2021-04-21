@@ -2040,7 +2040,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #FFFFFF;
+				background-color: #870005;
 			}
 
 			input[type="submit"].primary.icon:before,
