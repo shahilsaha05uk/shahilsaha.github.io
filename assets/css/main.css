@@ -85,8 +85,11 @@ input, select, textarea {
 
 	body {
 		-ms-overflow-style: scrollbar;
-	}
 
+	}
+	.scrollable-element {
+	  scrollbar-color: red black;
+	}
 	@media screen and (max-width: 480px) {
 
 		html, body {
