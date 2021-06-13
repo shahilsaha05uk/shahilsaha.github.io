@@ -3817,7 +3817,7 @@ font-size: 48px;
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
 
 .md-ui.component-card {
-	background: #fff;
+	background: #000000;
 	border: 0;
 	border-radius: .125em;
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -3836,7 +3836,7 @@ font-size: 48px;
 		margin: 0 auto;
 		display: block;
 		.figure-photo {
-			border-radius: .1em .1em 0 0;
+			/* border-radius: .1em .1em 0 0; */
 			text-align: center;
 			width: 40px;
 			display: block;
