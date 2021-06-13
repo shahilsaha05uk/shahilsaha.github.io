@@ -2994,14 +2994,14 @@ input, select, textarea {
 						border-bottom-right-radius: 8px;
 					}
 
-					.mySkillSet li .icon {
+					/* .mySkillSet li .icon {
 						display: inline-block;
 					}
 
 						.mySkillSet li .icon:before {
 							font-size: 2rem;
 							line-height: 1.3;
-						}
+						} */
 
 				@media screen and (max-width: 980px) {
 
