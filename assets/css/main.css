@@ -3836,7 +3836,7 @@ skillsSec {
 		margin: 0 auto;
 		display: block;
 		.figure-photo {
-			border-radius: .15em .15em 0 0;
+			border-radius: .1em .1em 0 0;
 			text-align: center;
 			width: 400px;
 			display: block;
