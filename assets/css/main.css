@@ -2931,6 +2931,122 @@ input, select, textarea {
 
 		}
 
+		/* mySkillSet */
+
+			.mySkillSet {
+				display: -moz-flex;
+				display: -webkit-flex;
+				display: -ms-flex;
+				display: flex;
+				width: 100%;
+				margin: 0 0 3em 0;
+				padding: 0;
+				list-style: none;
+				cursor: default;
+			}
+
+				.mySkillSet li {
+					-moz-flex: 1;
+					-webkit-flex: 1;
+					-ms-flex: 1;
+					flex: 1;
+					padding: 1.5em;
+					color: #ffffff;
+					text-align: center;
+				}
+
+					.mySkillSet li.style1 {
+						background-color: #25219f;
+					}
+
+					.mySkillSet li.style2 {
+						background-color: #e63401;
+					}
+
+					.mySkillSet li.style3 {
+						background-color: #1A0109;
+					}
+
+					.mySkillSet li.style4 {
+						background-color: #0D1347;
+					}
+
+					.mySkillSet li.style5 {
+						background-color: #8cc9f0;
+					}
+
+					.mySkillSet li strong, .mySkillSet li b {
+						display: block;
+						font-size: 2rem;
+						line-height: 1.1;
+						color: inherit !important;
+						font-weight: 300;
+						letter-spacing: -0.025em;
+					}
+
+					.mySkillSet li:first-child {
+						border-top-left-radius: 8px;
+						border-bottom-left-radius: 8px;
+					}
+
+					.mySkillSet li:last-child {
+						border-top-right-radius: 8px;
+						border-bottom-right-radius: 8px;
+					}
+
+					.mySkillSet li .icon {
+						display: inline-block;
+					}
+
+						.mySkillSet li .icon:before {
+							font-size: 2rem;
+							line-height: 1.3;
+						}
+
+				@media screen and (max-width: 980px) {
+
+					.mySkillSet li strong, .mySkillSet li b {
+						font-size: 2rem;
+					}
+
+				}
+
+				@media screen and (max-width: 736px) {
+
+					.mySkillSet {
+						display: block;
+						width: 20em;
+						max-width: 100%;
+						margin: 0 auto 2em auto;
+					}
+
+						.mySkillSet li:first-child {
+							border-bottom-left-radius: 0;
+							border-top-right-radius: 8px;
+						}
+
+						.mySkillSet li:last-child {
+							border-top-right-radius: 0;
+							border-bottom-left-radius: 8px;
+						}
+
+						.mySkillSet li .icon:before {
+							font-size: 3.75rem;
+						}
+
+						.mySkillSet li strong, .mySkillSet li b {
+							font-size: 2.5em;
+						}
+
+				}
+
+
+
+
+
+
+
+
 /* Statistics */
 
 	.statistics {
