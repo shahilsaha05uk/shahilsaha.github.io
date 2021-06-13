@@ -3836,7 +3836,7 @@ font-size: 48px;
 		margin: 0 auto;
 		display: block;
 		.figure-photo {
-			/* border-radius: .1em .1em 0 0; */
+			border-radius: 0 0 3em -2em;
 			text-align: center;
 			width: 40px;
 			display: block;
