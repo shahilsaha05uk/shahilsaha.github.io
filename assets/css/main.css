@@ -3042,7 +3042,7 @@ input, select, textarea {
 				.center {
 					line-height: 200px;
 				  height: 200px;
-				  text-align: center;
+				  /* text-align: center; */
 				}
 
 /* Statistics */
