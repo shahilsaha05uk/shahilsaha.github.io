@@ -73,44 +73,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-/*	Mobile view */
-
-.block{
-  border:2px solid #649fc0;
-  padding:10px 40px;
-  background:#C5DBE1;
-  max-width: 350px;
-  width:100%;
-  border-radius: 25px;
-  display: inline-block;
-  margin-bottom:20px;
-}
-
-.float-right{
-  float:right;
-}
-
-
-@media only screen and (max-width :998px) {
-  .block{
-    background-color: pink;
-  }
-
-.block.float-right{
-  float:none;
-}
-
-}
-
-
-
-
-
-
-
-
-
-
 
 /* Basic */
 
