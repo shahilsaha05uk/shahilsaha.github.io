@@ -3435,7 +3435,7 @@ font-size: 48px;
 		}
 		.skills > .text{
 		    width: 70%;
-		    margin: 1.5rem auto;
+		    margin: 0rem auto;
 		    text-align: center;
 		}
 		.skills .row{
