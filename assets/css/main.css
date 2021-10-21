@@ -3507,7 +3507,12 @@ font-size: 48px;
 		}
 
 
-
+		/* skills page */
+    .skills .row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+    }
 
 
 
