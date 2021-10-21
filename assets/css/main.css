@@ -3462,8 +3462,8 @@ font-size: 48px;
 		.skills .item-text span:last-child{
 		    position: absolute;
 		}
-		.skills .item-text .w-70{
-		    margin-left: 70%;
+		.skills .item-text .w-90{
+		    margin-left: 85%;
 		}
 		.skills .item-text .w-75{
 		    margin-left: 70%;
