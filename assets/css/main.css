@@ -3460,6 +3460,9 @@ font-size: 48px;
 		.skills .item-text .w-40{
 		    margin-left: 35%;
 		}
+		.skills .item-text .w-50{
+				margin-left: 45%;
+		}
 		.skills .item-text .w-60{
 		    margin-left: 55%;
 		}
@@ -3488,6 +3491,9 @@ font-size: 48px;
 		}
 		.progress-bar.w-40{
 		    width: 40%;
+		}
+		.progress-bar.w-50{
+				width: 50%;
 		}
 		.progress-bar.w-60{
 		    width: 60%;
