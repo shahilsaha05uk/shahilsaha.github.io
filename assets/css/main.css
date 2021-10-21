@@ -3454,26 +3454,20 @@ font-size: 48px;
 		.skills .item-text span:last-child{
 		    position: absolute;
 		}
-		.skills .item-text .w-100{
-				margin-left: 95%;
+		.skills .item-text .w-20{
+				margin-left: 15%;
 		}
-		.skills .item-text .w-90{
-		    margin-left: 85%;
-		}
-		.skills .item-text .w-75{
-		    margin-left: 70%;
-		}
-		.skills .item-text .w-85{
-		    margin-left: 80%;
-		}
-		.skills .item-text .w-80{
-		    margin-left: 75%;
+		.skills .item-text .w-40{
+		    margin-left: 35%;
 		}
 		.skills .item-text .w-60{
 		    margin-left: 55%;
 		}
-		.skills .item-text .w-68{
-		    margin-left: 63%;
+		.skills .item-text .w-80{
+		    margin-left: 75%;
+		}
+		.skills .item-text .w-100{
+		    margin-left: 95%;
 		}
 		.progress{
 		    margin: 0.8rem 0;
@@ -3489,26 +3483,20 @@ font-size: 48px;
 		    border-top-right-radius: 2px;
 		    border-bottom-right-radius: 2px;
 		}
-		.progress-bar.w-100{
-				width: 100%;
+		.progress-bar.w-20{
+				width: 20%;
 		}
-		.progress-bar.w-90{
-		    width: 90%;
-		}
-		.progress-bar.w-75{
-		    width: 75%;
-		}
-		.progress-bar.w-85{
-		    width: 85%;
-		}
-		.progress-bar.w-80{
-		    width: 80%;
+		.progress-bar.w-40{
+		    width: 40%;
 		}
 		.progress-bar.w-60{
 		    width: 60%;
 		}
-		.progress-bar.w-68{
-		    width: 68%;
+		.progress-bar.w-80{
+		    width: 80%;
+		}
+		.progress-bar.w-100{
+		    width: 100%;
 		}
 
 		/* skills page */
