@@ -3431,7 +3431,7 @@ font-size: 48px;
 
 		/* #### SKILLS PAGE #### */
 		.skills{
-		    padding: 5rem 0 2.5rem 0;
+		    padding: 4em 4em 2em 4em;
 		}
 		.skills > .text{
 		    width: 70%;
