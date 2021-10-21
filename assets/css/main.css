@@ -3522,8 +3522,8 @@ font-size: 48px;
 		opacity: 0;
 	}
 	20%{
-		left: -500px;
-		opacity: 100;
+		left: 0px;
+		opacity: 10;
 	}
 }
 
