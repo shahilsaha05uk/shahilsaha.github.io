@@ -882,6 +882,13 @@ input, select, textarea {
 							padding-top: 3em;
 						}
 
+						/* skills page */
+				    .skills .row{
+				        display: grid;
+				        grid-template-columns: repeat(2, 1fr);
+				        grid-gap: 2rem;
+				    }
+
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3506,13 +3513,6 @@ font-size: 48px;
 		    width: 68%;
 		}
 
-
-		/* skills page */
-    .skills .row{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 2rem;
-    }
 
 
 
