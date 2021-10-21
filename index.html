@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
   <link rel="shortcut icon" type="image/png" href="images/favicon.png">
@@ -16,6 +11,8 @@
 		<!--Font Awesome-->
 		<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
 <link href="/mywebsitefolder/fontawesome/fontawesome-all.css" rel="stylesheet">
+
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
 
 <!-- Fizzed.com -->
 <link rel="stylesheet" href="assets/css/font-mfizz.css">
@@ -286,8 +283,17 @@
 
 								    <!-- end of skills page -->
 
-
-
+										<script type = "text/javascript">
+										$(function())
+										$('.progress li .progress-bar').each(function(key.bar))
+										{
+											var percentage = $(this).data('percentage');
+											$(this).animate({
+												'height':percentage + '%'
+											},1000);
+										});
+									});
+										</script>
 
 							<!-- Hobbies Section -->
 								<section id="third" class="main">
