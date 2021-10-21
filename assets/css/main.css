@@ -3435,6 +3435,7 @@ font-size: 48px;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #C2C2C2;
+		font-weight: bold;
 		color: #870005;
 		position: absolute;
 		width: 64em;
