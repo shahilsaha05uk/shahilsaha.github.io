@@ -3485,7 +3485,7 @@ font-size: 48px;
 		    border-radius: 10px;
 		    height: 16px;
 		    width: 100%;
-		    background-color: var(--nero);
+		    background-color: #000000;
 		    overflow: hidden;
 		}
 		.progress-bar{
