@@ -3518,10 +3518,10 @@ font-size: 48px;
 				grid-template-columns: repeat(2, 1fr);
 				grid-gap: 2rem;
 		}
-.progress-bar{
+.progress{
 	animation: progress-bar 1.0s cubic-bezier(0.17,0.67,0,1);
 }
-@keyframes progress-bar  {
+@keyframes progress  {
 	20%{
 		left: 0px;
 		opacity: 1;
