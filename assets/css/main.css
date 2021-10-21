@@ -3493,18 +3493,23 @@ font-size: 48px;
 		}
 		.progress-bar.w-40{
 		    width: 40%;
+				animation-delay: 1.0s;
 		}
 		.progress-bar.w-50{
 				width: 50%;
+				animation-delay: 1.0s;
 		}
 		.progress-bar.w-60{
 		    width: 60%;
+				animation-delay: 1.0s;
 		}
 		.progress-bar.w-80{
 		    width: 80%;
+				animation-delay: 1.0s;
 		}
 		.progress-bar.w-100{
 		    width: 100%;
+				animation-delay: 1.0s;
 		}
 
 		/* skills page */
@@ -3517,13 +3522,25 @@ font-size: 48px;
 	animation: progress-bar 1.0s cubic-bezier(0.17,0.67,0,1);
 }
 @keyframes progress-bar  {
-	0%{
-		left: -500px;
-		opacity: 0;
-	}
 	20%{
 		left: 0px;
-		opacity: 10;
+		opacity: 1;
+	}
+	40%{
+		left: 0px;
+		opacity: 1;
+	}
+	60%{
+		left: 0px;
+		opacity: 1;
+	}
+	80%{
+		left: 0px;
+		opacity: 1;
+	}
+	100%{
+		left: 0px;
+		opacity: 1;
 	}
 }
 
