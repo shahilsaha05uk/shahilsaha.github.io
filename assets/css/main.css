@@ -3483,12 +3483,13 @@ font-size: 48px;
 		}
 		.progress-bar{
 		    background: #009800;
-		    /* height: 100%; */
+		    height: 100%;
 		    border-top-right-radius: 2px;
 		    border-bottom-right-radius: 2px;
 		}
 		.progress-bar.w-20{
 				width: 20%;
+				animation-delay: 1.0s;
 		}
 		.progress-bar.w-40{
 		    width: 40%;
@@ -3512,6 +3513,20 @@ font-size: 48px;
 				grid-template-columns: repeat(2, 1fr);
 				grid-gap: 2rem;
 		}
+.progress-bar{
+	animation: progress-bar 1.0s cubic-bezier(0.17,0.67,0,1);
+}
+@keyframes progress-bar  {
+	0%{
+		left: -500px;
+		opacity: 0;
+	}
+	20%{
+		left: -500px;
+		opacity: 0;
+	}
+}
+
 
 
 /* Nav */
