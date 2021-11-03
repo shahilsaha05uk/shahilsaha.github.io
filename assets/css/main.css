@@ -7,6 +7,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3902,7 +3906,7 @@ font-size: 48px;
 			border-color: #dddddd;
 		}
 
-			#
+			
 
 		 table tbody tr:nth-child(2n + 1) {
 				background-color: rgba(222, 222, 222, 0.25);
@@ -4143,3 +4147,8 @@ font-size: 48px;
 			}
 
 		}
+		
+		.videof, .videot {
+			width: 100%    !important;
+			height: 100%   !important;
+		 }
