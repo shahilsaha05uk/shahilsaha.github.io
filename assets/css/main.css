@@ -1,5 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 
 /*
 	Stellar by HTML5 UP
@@ -107,69 +109,18 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-
-
-
+	
 
 	body {
-
-										/*Background Update*/
-		    /* background: linear-gradient(297deg, #000000, #690000);
-		    background-size: 400% 400%; */
-				background: #A10102;
-				/* background: -webkit-linear-gradient(right, #A10102, #010101);
-				background: -moz-linear-gradient(right, #A10102, #010101); */
-				background: linear-gradient(to left, #A10102, #010101);
-				background-size: 400% 400%;
-
-
-		    -webkit-animation: AnimationName 30s ease infinite;
-		    -moz-animation: AnimationName 30s ease infinite;
-		    -o-animation: AnimationName 30s ease infinite;
-		    animation: AnimationName 30s ease infinite;
-		}
-
-		@-webkit-keyframes AnimationName {
-		    0%{background-position:0% 15%}
-		    50%{background-position:100% 86%}
-		    100%{background-position:0% 15%}
-		}
-		@-moz-keyframes AnimationName {
-		    0%{background-position:0% 15%}
-		    50%{background-position:100% 86%}
-		    100%{background-position:0% 15%}
-		}
-		@-o-keyframes AnimationName {
-		    0%{background-position:0% 15%}
-		    50%{background-position:100% 86%}
-		    100%{background-position:0% 15%}
+			background: linear-gradient(to left, #0f2027, #000859, #073a00, #3b0073); /* Adjust these colors */
+			background-size: 400% 400%;
+			animation: AnimationName 30s ease infinite;
 		}
 		@keyframes AnimationName {
-		    0%{background-position:0% 15%}
-		    50%{background-position:100% 86%}
-		    100%{background-position:0% 15%}
+			0% { background-position: 0% 50% }
+			50% { background-position: 100% 50% }
+			100% { background-position: 0% 50% }
 		}
-
-
-
-		/* background-color: #000000;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #000000 15%, #000000 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #000000 15%, #000000 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #000000 15%, #B10000 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #000000 15%, #B10000 85%); */
-
-
-		/* body{
-
-
-
-				background-image: url('https://thumbs.gfycat.com/CooperativeShockedCheetah-size_restricted.gif');
-				background-size: auto;
-
-				height: 100vh;
-				padding:0;
-				margin:0;
-		} */
 
 
 
@@ -231,14 +182,18 @@ input, select, textarea {
 		transition: color 0.2s ease, border-bottom 0.2s ease;
 		text-decoration: none;
 		border-bottom: dotted 1px;
-		color: inherit;
+		color: #063400;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
 		}
 
-	strong, b {
+
+
+
+
+strong, b {
 		font-weight: 400;
 	}
 
@@ -4173,3 +4128,274 @@ font-size: 48px;
 		opacity: 1;
 		font-size: 20px;
 	}
+
+	
+	
+#work {
+	padding: 40px 0;
+	background-color: #fff;
+	text-align: left;
+}
+
+.work-experience-entry {
+	display: flex;
+	margin-bottom: 20px;
+}
+.work-image-column {
+	width: 15%; /* Adjust as needed */
+	margin-right: 20px;
+}
+.work-image-column img {
+	width: 100%;
+	height: auto;
+	border-radius: 8px; /* Optional, for styling */
+}
+.work-details-column {
+	width: 70%; /* Adjust as needed */
+}
+.work-details-column .year, .details-column .role {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.work-details-column .title {
+	font-size: 1.2em;
+	margin-bottom: 3px;
+}
+.work-image-column .company-name {
+	margin-top: 5px; /* Space between image and company name */
+	font-size: 1em; /* Adjust as needed */
+	font-weight: bold; /* Optional */
+	text-align: center; /* Center the text below the image */
+}
+.work-details-column .year {
+	font-weight: bold; /* Adjust as needed */
+	font-style: italic; /* Optional style */
+	margin-bottom: 5px; /* Space below the year */
+}
+
+/* Projects Section Styles */
+.project-card {
+	display: grid;
+	grid-template-columns: minmax(120px, auto) 1fr; /* Increased width for the icon column */
+	gap: 10px;
+	padding: 15px;
+	background: #f5f5f5;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	margin: 15px;
+	transition: box-shadow 0.3s ease;
+}
+
+.project-icon-container {
+	display: flex;
+	flex-direction: column;
+	align-items: start; /* Aligns items to the start (top) */
+	
+}
+
+.project-icon {
+	/* Icon styles, adjust size as needed */
+	width: 200px;
+	height: 200px;
+	margin-bottom: 10px; /* Space between icon and additional info */
+}
+
+.project-additional-info {
+	/* Styles for additional information under the icon */
+	font-size: 0.8em;
+	color: #666;
+	font-family: Arial;
+}
+
+
+.project-card:hover {
+	box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+
+.project-title {
+	font-size: 2.2em;
+	margin-bottom: 5px;
+	font-family: Arial;
+	
+}
+
+.project-description {
+	font-size: 0.9em;
+	color: #666;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.github-button {
+	padding: 8px 15px;
+	background-color: #333;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 0.9em;
+}
+
+.github-button:hover {
+	background-color: #555;
+}
+
+/* Additional CSS for YouTube Video Styling */
+.project-video {
+	width: 100%; /* Ensures the video fits within the card */
+	height: 500px; /* Adjust height as needed */
+	border-radius: 5px; /* Optional: for rounded corners */
+	margin-top: 10px; /* Spacing between the description and the video */
+}
+
+
+/* Skills Section Styles */
+.skills-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	gap: 20px;
+}
+
+.skill-item {
+	text-align: center;
+}
+
+.skill-icon {
+	width: 80px;
+	height: 80px;
+	margin-bottom: 10px;
+}
+
+/* Hobbies Section Styles */
+.hobbies-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 20px;
+	justify-content: center;
+	text-align: center;
+}
+
+.hobby-card {
+	background: #f5f5f5;
+	border-radius: 50%; /* Makes the card circular */
+	width: 150px; /* Width of the card */
+	height: 150px; /* Height of the card, same as width for circle */
+	overflow: hidden;
+	margin: 0 auto; /* Centers the card in the grid cell */
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hobby-card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.hobby-icon {
+	margin-bottom: 15px; /* Space between icon and text */
+}
+
+.hobby-icon span {
+	font-size: 50px; /* Adjust the size as needed */
+	color: #666; /* Adjust the color as needed */
+}
+
+.hobby-icon img, .hobby-icon i {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%; /* Makes the image/icon circular */
+}
+
+.hobby-title {
+	font-size: 1.2em;
+	margin-bottom: 5px; /* Space below title */
+}
+
+.hobby-description {
+	font-size: 0.9em;
+	color: #666;
+}
+
+
+/* Education Section Styles */
+.timeline {
+	position: relative;
+	padding-left: 50px;
+	margin-top: 20px;
+}
+
+.timeline::before {
+	content: '';
+	position: absolute;
+	left: 20px;
+	top: 0;
+	bottom: 0;
+	width: 2px;
+	background: #ddd; /* Color of the timeline line */
+}
+
+.timeline-entry {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.timeline-icon {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #fff;
+	border: 2px solid #ddd;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.timeline-icon img {
+	width: 80%;
+	height: auto;
+}
+
+.timeline-icon i {
+	font-size: 40px; /* Adjust the size as needed */
+	color: #666; /* Adjust the color as needed */
+}
+.timeline-content {
+	background: #f5f5f5;
+	border-radius: 8px;
+	padding: 15px;
+	margin-left: 30px; /* Adjust as needed */
+	box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+
+
+
+@keyframes colorLerp {
+	0%{ color: #0f2027; }
+	33% { color: #000859; }
+	66% { color: #073a00; }
+	100% { color: #3b0073; }
+}
+
+a.color-lerp {
+	animation: colorLerp 10s ease-in-out infinite;
+	-moz-transition: color 0.2s ease;
+	-webkit-transition: color 0.2s ease;
+	-ms-transition: color 0.2s ease;
+	transition: color 0.2s ease;
+	text-decoration: none;
+	border-bottom: dotted 1px;
+	color: #063400; /* Default color */
+}
+a.color-lerp:hover {
+	animation-play-state: paused;
+	color: #fff; /* Color on hover */
+	border-bottom-color: inherit; /* Keep the border color unchanged */
+}
