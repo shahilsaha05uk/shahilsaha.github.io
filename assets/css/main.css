@@ -4397,3 +4397,64 @@ a.color-lerp:hover {
 	color: #fff; /* Color on hover */
 	border-bottom-color: inherit; /* Keep the border color unchanged */
 }
+
+
+/* Responsive Styles for Mobile Devices */
+@media screen and (max-width: 768px) {
+	/* Projects Section */
+	.projects-grid {
+		display: grid;
+		grid-template-columns: 1fr; /* Stack the cards vertically */
+		gap: 15px;
+	}
+
+	.project-card {
+		display: block; /* Change to block layout */
+	}
+
+	.project-icon-container {
+		width: 100%; /* Full width */
+		text-align: center; /* Center the icon */
+	}
+
+	.project-icon {
+		display: inline-block; /* Align icon properly */
+	}
+
+	/* Experience Section */
+	.work-experience-entry {
+		display: block; /* Stack elements vertically */
+	}
+
+	.work-image-column{
+		width: 50%; /* Full width for both columns */
+	}  
+	
+	.work-details-column {
+		
+		width: 100%;
+	}
+	.work-image-column {
+		text-align: center; /* Center the company icon */
+	}
+
+	.work-image-column img {
+		display: inline-block; /* Align image properly */
+	}
+
+	.project-video {
+		display: none;
+	}
+	.video-link-mobile {
+		display: inline-block; /* Show the link */
+		color: #dbf2ff;
+		/* Additional styling for the link */
+	}
+
+	.github-button {
+		display: block; /* Full width */
+		width: 100%;
+		box-sizing: border-box; /* Include padding and border in the width */
+	}
+
+}
