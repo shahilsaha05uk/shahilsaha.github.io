@@ -4245,7 +4245,9 @@ font-size: 48px;
 	border-radius: 5px; /* Optional: for rounded corners */
 	margin-top: 10px; /* Spacing between the description and the video */
 }
-
+.video-link-mobile {
+	display: none; /* Show the link */
+}
 
 /* Skills Section Styles */
 .skills-grid {
@@ -4447,14 +4449,16 @@ a.color-lerp:hover {
 	}
 	.video-link-mobile {
 		display: inline-block; /* Show the link */
-		color: #dbf2ff;
-		/* Additional styling for the link */
+		color: #8cc9f0;
+		
 	}
 
 	.github-button {
 		display: block; /* Full width */
 		width: 100%;
 		box-sizing: border-box; /* Include padding and border in the width */
+		
+		color: #8cc9f0;
 	}
 
 }
