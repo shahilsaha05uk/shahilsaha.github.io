@@ -3633,7 +3633,7 @@ font-size: 48px;
 
 	#main {
 		background-color: #ffffff;
-		color: #636363;
+		color: #565656;
 		border-radius: 0.25em;
 	}
 
@@ -3646,7 +3646,7 @@ font-size: 48px;
 		}
 
 		#main strong, #main b {
-			color: #636363;
+			color: #ffffff;
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
@@ -4224,7 +4224,10 @@ font-size: 48px;
 	font-family: 'Roboto', sans-serif;
 	
 }
-
+.project-description li strong {
+	color: #ffffff !important;
+	font-weight: bold;
+}
 .github-button {
 	padding: 8px 15px;
 	background-color: #8d8d8d;
@@ -4236,6 +4239,7 @@ font-size: 48px;
 
 .github-button:hover {
 	background-color: #555;
+	
 }
 
 /* Additional CSS for YouTube Video Styling */
