@@ -29,7 +29,10 @@ section, summary, time, mark, audio, video, skillsSec {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+
+}
+
 
 
 article, aside, details, figcaption, figure,
@@ -195,6 +198,7 @@ input, select, textarea {
 
 strong, b {
 		font-weight: 400;
+	
 	}
 
 	em, i {
@@ -4214,15 +4218,14 @@ font-size: 48px;
 .project-title {
 	font-size: 2.2em;
 	margin-bottom: 5px;
-	font-family: Arial;
+	font-family: Arial, serif;
 	color: #ffffff;	
 }
 
 .project-description {
-	font-size: 0.9em;
+	font-size: 1em;
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
-	
 }
 .project-description li strong {
 	color: #ffffff !important;
@@ -4466,3 +4469,70 @@ a.color-lerp:hover {
 	}
 
 }
+.learning-outcome strong {
+	color: #ffffff !important;
+	font-weight: bold;
+	font-size: 1em;
+	font-family: 'Roboto', sans-serif;
+}
+.learning-outcome{
+	color: #ffffff !important;
+	font-size: 1em;
+	font-family: 'Roboto', sans-serif;
+}
+
+.mechanics-details{
+	color: #ffffff !important;
+	font-size: 1em;
+	font-family: 'Roboto', sans-serif;
+}
+
+.project-details{
+	
+}
+
+.project-details h2{
+	color: #9d9d9d !important;
+	font-size: 1.5em;
+	font-style: oblique;
+	text-decoration: underline;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Swiper Slide */
+.swiper-slide {
+	display: flex; /* Use flexbox to structure the slide */
+	flex-direction: column; /* Stack children vertically */
+	height: 500px; /* Fixed height */
+}
+
+/* Content Container */
+.content-container {
+	flex-grow: 1; /* Content container should take up all available space */
+	width: 100%; /* Full width */
+	height: 500px; /* Fixed height */
+}
+
+/* iframe within Content Container */
+.content-container iframe {
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	object-fit: cover; /* Cover the area, change to 'contain' to avoid cropping */
+}
+
+/* Caption Container */
+.caption-container {
+	/* If you know the height of your caption, set it explicitly */
+	height: 70px; /* Adjust based on your caption's height */
+	width: 100%; /* Full width */
+	font-family: "Courier New", monospace;
+	font-style: italic;
+	font-weight: bold
+}
+
+/* View Project Link */
+.view-project-link {
+	/* Style your link as needed */
+}
+
