@@ -14,10 +14,12 @@
 
 		<!-- Google -->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+		
 		<!--Font Awesome-->
 		<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
 		<link href="/mywebsitefolder/fontawesome/fontawesome-all.css" rel="stylesheet">
-		
+
 		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 		
@@ -93,11 +95,23 @@
 							<div class="swiper mySwiper">
 								<div class="swiper-wrapper">
 
+									<!--Antinal Island-->
+									<div class="swiper-slide">
+										<!-- Content Container for iframe -->
+										<div class="content-container">
+											<iframe src="https://www.youtube.com/embed/gWUMZekq5qI?enablejsapi=1&mute=1" frameborder="0" allowfullscreen></iframe>
+										</div>
+										<!-- Caption Container -->
+										<div class="caption-container">
+											<a href="#antinal-project" class="view-project-link">View More!!</a>
+										</div>
+									</div>
+
 									<!--Goblin Siege-->
 									<div class="swiper-slide">
 										<!-- Content Container for iframe -->
 										<div class="content-container">
-											<iframe src="https://www.youtube.com/embed/imo62YYZvSw?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+											<iframe src="https://www.youtube.com/embed/imo62YYZvSw?enablejsapi=1&mute=1" frameborder="0" allowfullscreen></iframe>
 										</div>
 										<!-- Caption Container -->
 										<div class="caption-container">
@@ -109,7 +123,7 @@
 									<div class="swiper-slide">
 										<!-- Content Container for iframe -->
 										<div class="content-container">
-											<iframe src="https://www.youtube.com/embed/bxQbsuaC35c?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+											<iframe src="https://www.youtube.com/embed/bxQbsuaC35c?enablejsapi=1&mute=1" frameborder="0" allowfullscreen></iframe>
 										</div>
 										<!-- Caption Container -->
 										<div class="caption-container">
@@ -221,11 +235,69 @@
 								<!-- Goblin Siege -->
 								<div class="project-card">
 									<div class="project-icon-container">
+										<img src="images/antinal2.png" alt="Icon" class="project-icon">
+
+										<div class="project-additional-info">
+											<!-- Additional information here -->
+											<p class="project-cue">Title: Antinal Island <br> Engine: Unity <br> Genre: Tower-Defense; <br> Description: 3D Top-Down</p>
+											<a href="https://github.com/shahilsaha05uk/AntinalIsland.git" class="github-button">GitHub</a>
+											<a href="https://mad1hav.itch.io/ant-game" class="github-button">itch.io</a>
+										</div>
+									</div>
+									
+									<div class = "project-details">
+										<div id="antinal-project" class="project-title">Antinal Island</div>
+
+										<!-- YouTube Video Embed -->
+										<iframe src="https://www.youtube.com/embed/gWUMZekq5qI?si=gx3txK7j8ejkxDUV?enablejsapi=1&mute=1" frameborder="0" allowfullscreen class="project-video"></iframe>
+										<a href="https://www.youtube.com/embed/gWUMZekq5qI?si=gx3txK7j8ejkxDUV?enablejsapi=1&mute=1" class="video-link-mobile" target="_blank">Watch Video</a>
+										
+										<p class="project-description">
+											Recently, I had the opportunity to collaborate on a game jam where the theme was Microscopic Magic. We have worked on a 
+											3D Top-Down strategy game where the idea is to strategically place ant towers on the map and prevent the enemy ants from 
+											stealing the orbs.
+										</p>
+										<p class="project-description">
+											As one of the duo of programmers within the team, my role encompassed overseeing the entirety of the project. 
+											This involved crafting the gameplay loop and designing all the user interfaces, including the creation of game managers and UI elements. 
+											Furthermore, I took charge of managing our source control system, utilizing GitHub for this purpose. 
+											Beyond programming tasks, I also played a part in shaping the overall design of the project.
+										</p>
+										
+										<h2>Key Gameplay Mechanics Involve: </h2>
+										<ul class="mechanics-details">
+											<li>Tower Placement</li>
+											<li>Spline AI Movement</li>
+											<li>Wave Progression</li>
+											<li>Money Management</li>
+										</ul>
+										
+										<h2>Learning Outcomes</h2>
+										<ul class="learning-outcome">
+											<li><strong>Deeper Knowledge on the Engine:</strong>
+												During the six-day jam, I had the opportunity to experiment with new packages in Unity, such as the Spline package. 
+												This experience significantly deepened my understanding of the engine. 
+											</li>
+											<li><strong>Enhanced my knowledge on C++:</strong>
+												Gained knowledge on some of the advanced C++ concepts like templates and constexpr to enhance performance.
+											</li>
+											<li><strong>Collaborative Skills:</strong>
+												Got the chance to work with people with different backgrounds which also enhanced my communication skills.
+											</li>
+											<li><strong>Time Management</strong>
+												One of the motivations behind this was to challenge myself and assess my ability to perform under pressure, as well as to determine if I can meet strict deadlines effectively.											</li>
+										</ul>
+									</div>
+								</div>
+								
+								<!-- Goblin Seige-->
+								<div class="project-card">
+									<div class="project-icon-container">
 										<img src="images/GoblinSiege.jpg" alt="Icon" class="project-icon">
 
 										<div class="project-additional-info">
 											<!-- Additional information here -->
-											<p>Title: Goblin Siege <br> Engine: Unreal Engine 5 <br> Genre: Tower Defense</p>
+											<p class="project-cue">Title: Goblin Siege <br> Engine: Unreal Engine 5 <br> Genre: Tower Defense</p>
 											<a href="https://github.com/shahilsaha05uk/GoblinSeige.git" class="github-button">GitHub</a>
 											<a href="docs/Goblin%20Seige%20TDD.docx" class="github-button">TDD Doc</a>
 										</div>
@@ -235,8 +307,8 @@
 										<div id="goblin-project" class="project-title">Goblin Siege</div>
 
 										<!-- YouTube Video Embed -->
-										<iframe src="https://www.youtube.com/embed/imo62YYZvSw" frameborder="0" allowfullscreen class="project-video"></iframe>
-										<a href="https://youtu.be/imo62YYZvSw?si=d9KglXPgwENgZRlt" class="video-link-mobile" target="_blank">Watch Video</a>
+										<iframe src="https://www.youtube.com/embed/imo62YYZvSw?enablejsapi=1&mute=1" frameborder="0" allowfullscreen class="project-video"></iframe>
+										<a href="https://youtu.be/imo62YYZvSw?si=d9KglXPgwENgZRlt?enablejsapi=1&mute=1" class="video-link-mobile" target="_blank">Watch Video</a>
 										
 										<p class="project-description">
 											Developing a tower defense game like this has always been a drea\m project for me, and this endeavor marked my first foray into such a substantial undertaking. 
@@ -289,7 +361,7 @@
 
 										<div class="project-additional-info">
 											<!-- Additional information here -->
-											<p>Title: Strike <br> Engine: Unreal Engine 5 <br> Genre: 3rd person Shooter</p>
+											<p class="project-cue">Title: Strike <br> Engine: Unreal Engine 5 <br> Genre: 3rd person Shooter</p>
 											<a href="https://github.com/shahilsaha05uk/Year4_Multiplayer_Project.git" class="github-button">GitHub</a>
 											<a href="docs/Strike%20TDD.docx" class="github-button">TDD Doc</a>
 
@@ -300,9 +372,9 @@
 										<div id="strike-project" class="project-title">Strike</div>
 
 										<!-- YouTube Video Embed -->
-										<iframe src="https://www.youtube.com/embed/bxQbsuaC35c?si=psxg1fhxWueAv-Dl" frameborder="0" allowfullscreen class="project-video"></iframe>
+										<iframe src="https://www.youtube.com/embed/bxQbsuaC35c?si=psxg1fhxWueAv-Dl?enablejsapi=1&mute=1" frameborder="0" allowfullscreen class="project-video"></iframe>
 
-										<a href="https://youtu.be/bxQbsuaC35c?si=z9LkVro-24DON09z" class="video-link-mobile" target="_blank">Watch Video</a>
+										<a href="https://youtu.be/bxQbsuaC35c?si=z9LkVro-24DON09z?enablejsapi=1&mute=1" class="video-link-mobile" target="_blank">Watch Video</a>
 										
 										<p class="project-description">
 											Creating a multiplayer third-person shooter game proved both thrilling and daunting, particularly in mastering replication, a crucial aspect of ensuring consistent gameplay across all players. 
@@ -343,7 +415,7 @@
 
 										<div class="project-additional-info">
 											<!-- Additional information here -->
-											<p>Title: Bounce <br> Engine: Unity <br> Genre: 2D-Platformer</p>
+											<p class="project-cue">Title: Bounce <br> Engine: Unity <br> Genre: 2D-Platformer</p>
 
 											<a href="https://github.com/shahilsaha05uk/Bounce.git" class="github-button">GitHub</a>
 
@@ -353,9 +425,9 @@
 									<div class = "project-details">
 										<div class="project-title">Bounce</div>
 										<!-- YouTube Video Embed -->
-										<iframe src="https://www.youtube.com/embed/qZexeUHMhsM?si=_l3qmTcI5rsIB8D8" frameborder="0" allowfullscreen class="project-video"></iframe>
+										<iframe src="https://www.youtube.com/embed/qZexeUHMhsM?si=_l3qmTcI5rsIB8D8?enablejsapi=1&mute=1" frameborder="0" allowfullscreen class="project-video"></iframe>
 										
-										<a href="https://youtu.be/qZexeUHMhsM?si=idZptNyfGiLwxzHx" class="video-link-mobile" target="_blank">Watch Video</a>
+										<a href="https://youtu.be/qZexeUHMhsM?si=idZptNyfGiLwxzHx?enablejsapi=1&mute=1" class="video-link-mobile" target="_blank">Watch Video</a>
 										
 										<p class="project-description">
 											Bounce Back is a 2D side-scrolling platformer game and was developed on Unity. This project is inspired from the Bounce game on the old Nokia phones. I have tried to extend this game and added some new features to make it engaging for a player. Some of the main features and mechanics includes a shop system which offers a few powerups for the player to use against the enemies to attack or defend themselves, some differen types of enemies which can now attack on sight and some additional levels as well. I had a wonderful time and the one thing that make this project different. By the time I started with my 2nd semester project, I was very comfortable with the engine and decided to try out and implement some of the other features provided by the Engine for my game and Some of them includes the new Input system and the 2D toolset. I did face a few hurdles although it was very little compared to what I had in my first semester. Overall, it was a great learning experience and I loved it.
@@ -363,15 +435,15 @@
 
 									</div>
 								</div>
-
 								<!-- Minesweeper -->
+<!--
 								<div class="project-card">
 									<div class="project-icon-container">
 										<img src="images/mine.gif" alt="Icon" class="project-icon">
 
 
 										<div class="project-additional-info">
-											<!-- Additional information here -->
+											&lt;!&ndash; Additional information here &ndash;&gt;
 											<p>Title: Minespweeper <br> Engine: Unity </p>
 
 											<a href="https://ssaha05@bitbucket.org/ssaha05/rising-star.git" class="github-button">GitHub</a>
@@ -385,7 +457,7 @@
 										<iframe src="https://www.youtube.com/embed/fTwVLDsoSfs?si=ulHsYH3-XFuslTBK" frameborder="0" allowfullscreen class="project-video"></iframe>
 										<a href="https://youtu.be/fTwVLDsoSfs?si=9o8Mz8zq0p8KL4Nv" class="video-link-mobile" target="_blank">Watch Video</a>
 										
-										<!-- YouTube Video Embed -->
+										&lt;!&ndash; YouTube Video Embed &ndash;&gt;
 										<a href="https://shahilsaha05uk.itch.io/minesweeper"
 										   class="icon brands fab fa-itch-io porfolioGithubLogo"
 										   target="_blank"></a>
@@ -406,7 +478,7 @@
 
 									</div>
 								</div>
-
+-->
 								<!-- Pacman -->
 <!--
 								<div class="project-card">

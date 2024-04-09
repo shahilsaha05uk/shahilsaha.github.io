@@ -4223,7 +4223,7 @@ font-size: 48px;
 }
 
 .project-description {
-	font-size: 1em;
+	font-size: 0.7em;
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 }
@@ -4476,24 +4476,44 @@ a.color-lerp:hover {
 	font-family: 'Roboto', sans-serif;
 }
 .learning-outcome{
+	list-style-type: none; /* Remove default bullet points */
+	padding-left: 0; /* Remove default indentation */
+	
 	color: #ffffff !important;
-	font-size: 1em;
+	font-size: 0.7em;
 	font-family: 'Roboto', sans-serif;
 }
-
+.learning-outcome li::before {
+	list-style-type: none;
+	content: "\ea24"; /* Unicode value for the Material Icons "think" emoji */
+	font-family: 'Material Icons Outlined'; /* Specify the font family */
+	margin-right: 5px; /* Adjust spacing between icon and text */
+}
 .mechanics-details{
+	list-style-type: none; /* Remove default bullet points */
+	padding-left: 0; /* Remove default indentation */
+	
 	color: #ffffff !important;
-	font-size: 1em;
+	font-size: 0.7em;
 	font-family: 'Roboto', sans-serif;
+}
+.mechanics-details li::before {
+	list-style-type: none;
+	content: "\ea3c"; /* Unicode value for the Material Icons "think" emoji */
+	font-family: 'Material Icons Outlined'; /* Specify the font family */
+	margin-right: 5px; /* Adjust spacing between icon and text */
 }
 
 .project-details{
 	
 }
-
+.project-cue{
+	font-size: 0.7em;
+	
+}
 .project-details h2{
 	color: #9d9d9d !important;
-	font-size: 1.5em;
+	font-size: 1em;
 	font-style: oblique;
 	text-decoration: underline;
 	font-weight: bold;
